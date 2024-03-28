@@ -1,0 +1,2 @@
+module SearchesLogHelper
+end
