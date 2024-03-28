@@ -1,1 +1,1 @@
-web: bundle exec puma -C config/puma.rb
+web: rake db:migrate && RAILS.env=production bin/rails server -b 0.0.0.0 ${PORT:-3000}
